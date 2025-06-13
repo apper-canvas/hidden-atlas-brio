@@ -37,7 +37,7 @@ const DiscoverPage = () => {
     loadDestinations();
   }, [loadDestinations]);
 
-  useEffect(() => {
+useEffect(() => {
     let filtered = destinations;
 
     if (searchTerm) {
@@ -52,6 +52,13 @@ const DiscoverPage = () => {
         selectedInterests.some(interest => dest.interests.includes(interest))
       );
     }
+
+    // Sort by match percentage (highest first)
+    filtered = filtered.sort((a, b) => {
+      const matchA = calculateMatch(a);
+      const matchB = calculateMatch(b);
+      return matchB - matchA;
+    });
 
     setFilteredDestinations(filtered);
   }, [selectedInterests, searchTerm, destinations]);

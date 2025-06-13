@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import ApperIcon from '../components/ApperIcon';
+import ApperIcon from '@/components/ApperIcon';
 
-const Home = () => {
+const HomePage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -56,4 +56,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

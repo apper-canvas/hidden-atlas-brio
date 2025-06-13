@@ -1,8 +1,10 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import ApperIcon from '../components/ApperIcon';
+import ApperIcon from '@/components/ApperIcon';
+import Button from '@/components/atoms/Button';
 
-const NotFound = () => {
+const NotFoundPage = () => {
   const navigate = useNavigate();
 
   return (
@@ -17,17 +19,17 @@ const NotFound = () => {
         <p className="text-lg text-secondary/80 mb-8 max-w-md">
           Looks like you've wandered off the beaten path. Let's get you back to exploring!
         </p>
-        <motion.button
+        <Button
           onClick={() => navigate('/discover')}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors"
+          className="px-6 py-3 bg-primary text-white hover:bg-primary/90"
         >
           Return to Discover
-        </motion.button>
+        </Button>
       </motion.div>
     </div>
   );
 };
 
-export default NotFound;
+export default NotFoundPage;

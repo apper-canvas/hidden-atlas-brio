@@ -1,8 +1,8 @@
-import Home from '../pages/Home';
-import Discover from '../pages/Discover';
-import MyTrips from '../pages/MyTrips';
-import Saved from '../pages/Saved';
-import DestinationDetail from '../pages/DestinationDetail';
+import HomePage from '@/components/pages/HomePage';
+import DiscoverPage from '@/components/pages/DiscoverPage';
+import MyTripsPage from '@/components/pages/MyTripsPage';
+import SavedPage from '@/components/pages/SavedPage';
+import DestinationDetailPage from '@/components/pages/DestinationDetailPage';
 
 export const routes = {
   home: {
@@ -10,7 +10,7 @@ export const routes = {
     label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home,
+component: HomePage,
     showInNav: false
   },
   discover: {
@@ -18,7 +18,7 @@ export const routes = {
     label: 'Discover',
     path: '/discover',
     icon: 'Compass',
-    component: Discover,
+component: DiscoverPage,
     showInNav: true
   },
   myTrips: {
@@ -26,7 +26,7 @@ export const routes = {
     label: 'My Trips',
     path: '/my-trips',  
     icon: 'MapPin',
-    component: MyTrips,
+component: MyTripsPage,
     showInNav: true
   },
   saved: {
@@ -34,7 +34,7 @@ export const routes = {
     label: 'Saved',
     path: '/saved',
     icon: 'Bookmark',
-    component: Saved,
+component: SavedPage,
     showInNav: true
   },
   destinationDetail: {
@@ -42,7 +42,7 @@ export const routes = {
     label: 'Destination',
     path: '/destination/:id',
     icon: 'Map',
-    component: DestinationDetail,
+component: DestinationDetailPage,
     showInNav: false
   }
 };

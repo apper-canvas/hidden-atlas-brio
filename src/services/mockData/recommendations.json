@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "destinationId": "1",
+    "type": "Restaurant",
+    "name": "Hadibo Traditional Kitchen",
+    "description": "Family-run restaurant serving authentic Socotri cuisine including fresh fish, traditional bread, and local honey. Try the grilled lobster caught that morning.",
+    "rating": 4.8
+  },
+  {
+    "id": "2", 
+    "destinationId": "1",
+    "type": "Activity",
+    "name": "Homhil Plateau Trek",
+    "description": "Guided hike to see the famous bottle trees and Dragon's Blood Trees. Best visited during early morning for optimal lighting and wildlife activity.",
+    "rating": 4.9
+  },
+  {
+    "id": "3",
+    "destinationId": "2",
+    "type": "Restaurant", 
+    "name": "Koks Restaurant",
+    "description": "Michelin-starred restaurant focusing on traditional Faroese cuisine using local ingredients like fermented lamb, seabirds, and foraged herbs.",
+    "rating": 4.7
+  },
+  {
+    "id": "4",
+    "destinationId": "2",
+    "type": "Activity",
+    "name": "Kallur Lighthouse Hike",
+    "description": "Dramatic hike to the northernmost point of the Faroe Islands. Breathtaking views but requires good weather conditions and proper gear.",
+    "rating": 4.6
+  },
+  {
+    "id": "5",
+    "destinationId": "3",
+    "type": "Activity",
+    "name": "Arborek Village Tour",
+    "description": "Visit a traditional Papuan village where locals have embraced sustainable tourism. Learn about their culture and marine conservation efforts.",
+    "rating": 4.8
+  },
+  {
+    "id": "6",
+    "destinationId": "3",
+    "type": "Accommodation",
+    "name": "Raja Ampat Dive Lodge",
+    "description": "Eco-friendly overwater bungalows with direct reef access. Perfect for serious divers with on-site PADI certification and equipment rental.",
+    "rating": 4.9
+  }
+]

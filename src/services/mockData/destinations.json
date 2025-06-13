@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Socotra Island",
+    "country": "Yemen",
+    "description": "A UNESCO World Heritage site often called the 'Galápagos of the Indian Ocean.' Home to over 700 endemic species including the iconic Dragon's Blood Trees and bottle trees. This isolated archipelago offers pristine beaches, unique wildlife, and landscapes that seem otherworldly.",
+    "interests": ["hiking", "wildlife", "beaches", "cultural"],
+    "bestMonths": ["October", "November", "December", "January", "February", "March"],
+    "heroImage": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": "2", 
+    "name": "Faroe Islands",
+    "country": "Denmark",
+    "description": "18 emerald islands in the North Atlantic with dramatic cliffs, grass-roof houses, and pristine hiking trails. Experience Nordic culture, sample fermented lamb, and witness the Northern Lights in this remote paradise where sheep outnumber humans.",
+    "interests": ["hiking", "cultural", "wildlife", "adventure"],
+    "bestMonths": ["May", "June", "July", "August", "September"],
+    "heroImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?w=800&h=400&fit=crop",
+    "difficulty": "Challenging"
+  },
+  {
+    "id": "3",
+    "name": "Raja Ampat",
+    "country": "Indonesia", 
+    "description": "The 'Four Kings' of marine biodiversity. This remote archipelago in West Papua boasts the richest marine life on Earth with over 1,500 species of fish and 600 species of coral. Perfect for world-class diving and snorkeling in crystal-clear waters.",
+    "interests": ["wildlife", "beaches", "adventure"],
+    "bestMonths": ["October", "November", "December", "January", "February", "March", "April"],
+    "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=400&fit=crop",
+    "difficulty": "Moderate"
+  },
+  {
+    "id": "4",
+    "name": "Lofoten Islands",
+    "country": "Norway",
+    "description": "Arctic archipelago above the polar circle with dramatic peaks rising directly from the sea. Traditional fishing villages, midnight sun in summer, Northern Lights in winter, and some of the world's most spectacular hiking trails.",
+    "interests": ["hiking", "cultural", "adventure", "wildlife"],
+    "bestMonths": ["June", "July", "August", "September"],
+    "heroImage": "https://images.unsplash.com/photo-1578910312093-57ac4b0c46e6?w=800&h=400&fit=crop",
+    "difficulty": "Challenging"
+  },
+  {
+    "id": "5",
+    "name": "Kangaroo Island",
+    "country": "Australia",
+    "description": "Australia's third-largest island, 100km southwest of Adelaide. A wildlife sanctuary with echidnas, kangaroos, koalas, and rare glossy black cockatoos. Features pristine beaches, limestone caves, and locally produced honey, wine, and spirits.",
+    "interests": ["wildlife", "beaches", "cultural", "hiking"],
+    "bestMonths": ["September", "October", "November", "December", "January", "February", "March", "April"],
+    "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "destinationId": "1",
+    "days": [
+      {
+        "day": 1,
+        "activities": [
+          {
+            "time": "09:00",
+            "activity": "Airport pickup and hotel check-in",
+            "type": "logistics"
+          },
+          {
+            "time": "14:00",
+            "activity": "Orientation walk through Hadibo town",
+            "type": "cultural"
+          },
+          {
+            "time": "18:00",
+            "activity": "Traditional Socotri dinner",
+            "type": "cultural"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "activities": [
+          {
+            "time": "08:00",
+            "activity": "Trek to Dragon's Blood Tree forest",
+            "type": "hiking"
+          },
+          {
+            "time": "12:00",
+            "activity": "Picnic lunch among endemic flora",
+            "type": "cultural"
+          },
+          {
+            "time": "15:00",
+            "activity": "Wildlife spotting and photography",
+            "type": "wildlife"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "activities": [
+          {
+            "time": "09:00",
+            "activity": "Visit pristine Qalansiyah Beach",
+            "type": "beaches"
+          },
+          {
+            "time": "13:00",
+            "activity": "Beach camping setup and lunch",
+            "type": "adventure"
+          },
+          {
+            "time": "16:00",
+            "activity": "Departure preparation",
+            "type": "logistics"
+          }
+        ]
+      }
+    ],
+    "created": "2024-01-15T10:30:00Z",
+    "packingList": [
+      "Hiking boots",
+      "Sun protection",
+      "Camera equipment",
+      "Camping gear",
+      "Water purification tablets",
+      "First aid kit"
+    ]
+  }
+]
